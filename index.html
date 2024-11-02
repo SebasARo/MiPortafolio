@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/0f4dc4da4f.js"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <section id="inicio">
+        <div class="contenedor">
+            <header>
+                <div class="conte_header">
+                    <h1>Portafolio</h1>
+                    <nav id="" class="">
+                        <ul id="link">
+                          <li><a href="#" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                           <li> <a href="#sobremi" onclick="seleccionar(this)">Profile</a></li>
+                           <li><a href="#habilidades" onclick="seleccionar(this)">Skills</a></li> 
+                           <li><a href="#portafolio" onclick="seleccionar(this)">Works</a></li> 
+                           <li><a href="#Contactar" onclick="seleccionar(this)">Contact</a></li> 
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="//www.linkedin.com/in/sebastian-arias-r2000/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SebasARo"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:arias0416@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="presentacion">
+                <h1 class="animate__animated animate__backInDown animate__delay-0.5s">Sebastian Arias Rodriguez</h1>
+                <p class="animate__animated animate__backInDown animate__delay-0.5s">Ingeniero en Sistemas</p>
+                <p class="animate__animated animate__backInDown animate__delay-0.5s">Universidad Autonoma de Centro America</p>
+            </div>
+        </div>
+
+    </section>
+                
+       <section id="sobremi">
+        <div class="conte_img">
+            
+        </div>
+        <div class="sobremi">
+            <h1 class="titulo">Professional Profile</h1>
+            <p>
+                <hr>
+                My name is Sebastian Arias Rodriguez, Im from Costa Rica. Passionate about web application development with strong skills in <b> HTML5, CSS y JavaScript</b>.<br><br>
+                I am characterized by being  <b>responsible</b>,<b> proactive</b> and <b>organized</b>, qualities that allow me to meet my objectives efficiently. <br><br>
+                Additionally, <b>I enjoy teamwork</b>, collaborating to achieve common goals and fostering an environment of cooperation and constant improvement.<br><br>
+                Motivated to expand my experience in programming languages such as <b>C# and Visual Basic</b>, as well as deepen my knowledge of <b>IPv6 networks and SQL Server</b.<br><br>
+            </p>
+            <a href="#">Download CV</a>
+        </div>
+
+        <div id="education">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+    <div class="education-item">
+        <h3>Universidad Autónoma de Centro América (UACA)</h3>
+        <p><strong>Degree:</strong> Systems Engineering</p>
+        <p><strong>Duration:</strong> Feb 2018 - 2025 (Final Year)</p>
+    </div>
+    <h2><i class="fas fa-language"></i>Languages</h2>
+    <div class="languages">
+        <ul>
+            <li><strong>English:</strong> B2+</li>
+            <li><strong>Spanish:</strong> Native Language</li>
+        </ul>
+    </div>
+        </div>
+       </section>
+
+       <section id="habilidades">
+        <h1>Skills</h1>
+        <div class="contenedor_skills">
+            <div class="info">
+                <p><span class="lista"></span>HTML5 y CSS</p>
+                <span class="porciento">Avanzado</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+
+        <div class="contenedor_skills">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porciento">Basico</span>
+            </div>
+            <div class="barra">
+                <div id="java" class=""></div>
+            </div>
+        </div>
+
+        <div class="contenedor_skills">
+            <div class="info">
+                <p><span class="lista"></span>C#</p>
+                <span class="porciento">Intermedio</span>
+            </div>
+            <div class="barra">
+                <div id="csharp" class=""></div>
+            </div>
+        </div>
+
+        <div class="contenedor_skills">
+            <div class="info">
+                <p><span class="lista"></span>Visual Basic(.Net)</p>
+                <span class="porciento">Intermedio</span>
+            </div>
+            <div class="barra">
+                <div id="dotnet" class=""></div>
+            </div>
+        </div>
+
+        <div class="contenedor_skills">
+            <div class="info">
+                <p><span class="lista"></span>SQL Server</p>
+                <span class="porciento">Avanzado</span>
+            </div>
+            <div class="barra">
+                <div id="sql" class=""></div>
+            </div>
+        </div>
+
+        <div class="contenedor_skills">
+            <div class="info">
+                <p><span class="lista"></span>Networks IPv6</p>
+                <span class="porciento">Intermedio</span>
+            </div>
+            <div class="barra">
+                <div id="ipv" class=""></div>
+            </div>
+        </div>
+       </section>
+
+        <section id="portafolio">
+           <h1 class="titulo_portafolio">My Proyects</h1>
+         
+          <div class="contenedor_cards">
+           <article class="pro_cards">
+            <a href="#" class="img_card">
+                <img src="recursos/img/img_pweb3.jpg" alt="image" class="proyect_img">
+            </a>
+            <div class="data">
+                <h3 class="nombre">Diseño Web</h3>
+                <p class="descripcion">Creacion de pagina web sobre compra de productos entre otros servicios que da la pagina</p>
+
+                <div class="sistemas">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <a href="https://sebasaro.github.io/PaginaWeb2/" target="_blank" class="btn"><i class="fa-solid fa-link"></i>
+                <span>View Proyect</span></a>
+            </div>
+        </article>
+
+        <article class="pro_cards">
+            <a href="#" class="img_card">
+                <img src="recursos/img/img_pweb1.jpg" alt="image" class="proyect_img">
+            </a>
+            <div class="data">
+                <h3 class="nombre">Diseño Web</h3>
+                <p class="descripcion">Creacion de pagina web sobre adopcion de animales y que servicios se dan</p>
+
+                <div class="sistemas">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <a href="https://sebasaro.github.io/PaginaWeb1/" target="_blank" class="btn"><i class="fa-solid fa-link"></i>
+                <span>View Proyect</span></a>
+            </div>
+        </article>
+
+        <article class="pro_cards">
+            <a href="#" class="img_card">
+                <img src="recursos/img/img_pweb2.jpg" alt="image" class="proyect_img">
+            </a>
+            <div class="data">
+                <h3 class="nombre">Diseño Web</h3>
+                <p class="descripcion">Creacion de pagina web sobre compra de productos electonicos</p>
+
+                <div class="sistemas">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <a href="https://sebasaro.github.io/PaginaWeb3/" target="_blank" class="btn"><i class="fa-solid fa-link"></i>
+                <span>View Proyect</span></a>
+            </div>
+        </article>
+
+        <article class="pro_cards">
+            <a href="#" class="img_card">
+                <img src="recursos/img/img_sisfactura.jpg" alt="image" class="proyect_img">
+            </a>
+            <div class="data">
+                <h3 class="nombre">Sistema Facturacion</h3>
+                <p class="descripcion">Creacion de un sistema de facturacion con login, usuarios, compras, ventas y proveedores</p>
+
+                <div class="sistemas">
+                    <img src="recursos/icons/icon1.jpg" alt="image" class="skills_img">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <a href="#" target="_blank" class="btn"><i class="fa-solid fa-link"></i>
+                <span>View Proyect</span></a>
+            </div>
+        </article>
+
+        <article class="pro_cards">
+            <a href="#" class="img_card">
+                <img src="recursos/img/img_sisperativo.jpg" alt="image" class="proyect_img">
+            </a>
+            <div class="data">
+                <h3 class="nombre">Sistema Operativo</h3>
+                <p class="descripcion">Creacion de un simulador de un sistema operativo con Round Robin, y fragmentacion de memoria</p>
+
+                <div class="sistemas">
+                    <img src="recursos/icons/icon3.jpg" alt="image" class="skills_img">
+                </div>
+
+                <a href="#" target="_blank" class="btn"><i class="fa-solid fa-link"></i>
+                <span>View Proyect</span></a>
+            </div>
+        </article>
+
+        <article class="pro_cards">
+            <a href="#" class="img_card">
+                <img src="recursos/img/img_ipv6.jpg" alt="image" class="proyect_img">
+            </a>
+            <div class="data">
+                <h3 class="nombre">Redes IPv6</h3>
+                <p class="descripcion">Creacion de un simulador de coneccion de servidores con IPv6, vlans y redistribuciones entre routers</p>
+
+                <div class="sistemas">
+                    <img src="recursos/icons/icon2.jpg" alt="image" class="skills_img">
+                </div>
+
+                <a href="#" target="_blank" class="btn"><i class="fa-solid fa-link"></i>
+                <span>View Proyect</span></a>
+            </div>
+        </article>
+       </div>
+       </section>
+       
+       <section id="Contactar">
+        <div class="contenedor-cm">
+            <h1 class="titulo_foot">Contact Me</h1>
+            <div class="info_redes">
+               <p><i class="fa-solid fa-phone"></i>7064-5529</p>
+               <p><i class="fa-solid fa-envelope"></i>arias0416@gmail.com</p>
+               <p><i class="fa-brands fa-linkedin"></i>sebastian-arias-r2000</p>
+            </div>
+        </div>
+        
+       </section>
+       <script src="js/menu.js"></script> 
+</body>
+</html>
+
+    
+
+
+
+
