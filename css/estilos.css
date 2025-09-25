@@ -124,6 +124,11 @@ background: linear-gradient(to right, #353434, #000000);
     color: white;
     display: none;
 }
+@media screen and (max-width: 768px) {
+ .conte_header h1{
+    font-size: 33px;
+ }
+}
 /*----------------------------------------------------------SOBRE MI------------------------------------------------------------------*/
 #sobremi {
     padding: 100px 15px;
@@ -251,6 +256,53 @@ background: linear-gradient(to right, #353434, #000000);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(203, 203, 203, 0.1);
     margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  #sobremi {
+    flex-direction: column;
+    height: auto;
+    padding: 60px 15px;
+    text-align: center;
+  }
+
+  #sobremi .conte_img {
+    margin: 0 auto 30px;
+    max-width: 90%;
+  }
+
+  .sobremi {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .sobremi .titulo {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .sobremi a {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+
+  #education h2, .languages h3 {
+    font-size: 1.3rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .education-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .education-item p, .languages li {
+    font-size: 0.95rem;
+  }
+
+  .education-item, .languages {
+    padding: 10px;
+  }
 }
 /*----------------------------------------------------------HABILIDADES------------------------------------------------------------------*/
 
