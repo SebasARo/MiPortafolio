@@ -495,6 +495,118 @@ background: linear-gradient(to right, #353434, #000000);
     font-size: 1rem;
 }
 
+/*--------------------------------------------Trabajos-----------------------------------------------------------------*/
+
+.experiencia {
+  background-color: #0f0f0f;
+  padding: 60px 20px;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #9e30e7;
+}
+
+.timeline-item {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 20px 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  background-color: #ae2525f1;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.contenido .date {
+ background-color: #6b1ce388;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.contenido h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.contenido p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.skills li {
+  background-color: #333;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  list-style: none;
+}
+
+/* 📱 Responsive para móviles */
+@media screen and (max-width: 600px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .contenido h3 {
+    font-size: 1.1rem;
+  }
+
+  .timeline-item {
+    padding: 15px 20px;
+  }
+
+  .skills li {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+}
 /*--------------------------------------------CONTACTAR-----------------------------------------------------------------*/
 
 #Contactar {
