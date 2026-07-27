@@ -21,7 +21,8 @@
                           <li><a href="#" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
                            <li> <a href="#sobremi" onclick="seleccionar(this)">Profile</a></li>
                            <li><a href="#habilidades" onclick="seleccionar(this)">Skills</a></li> 
-                           <li><a href="#portafolio" onclick="seleccionar(this)">Works</a></li> 
+                           <li><a href="#portafolio" onclick="seleccionar(this)">Works</a></li>
+                           <li><a href="#certi" onclick="seleccionar(this)">Certificates</a></li>
                            <li><a href="#Contactar" onclick="seleccionar(this)">Contact</a></li> 
                         </ul>
                     </nav>
@@ -75,7 +76,7 @@
     <h2><i class="fas fa-language"></i>Languages</h2>
     <div class="languages">
         <ul>
-            <li><strong>English:</strong> B2+</li>
+            <li><strong>English:</strong> B1</li>
             <li><strong>Spanish:</strong> Native Language</li>
         </ul>
     </div>
@@ -116,7 +117,7 @@
 
         <div class="contenedor_skills">
             <div class="info">
-                <p><span class="lista"></span>Visual Basic(.Net)</p>
+                <p><span class="lista"></span>ASP.Net</p>
                 <span class="porciento">Intermedio</span>
             </div>
             <div class="barra">
@@ -151,19 +152,18 @@
           <div class="contenedor_cards">
            <article class="pro_cards">
             <a href="#" class="img_card">
-                <img src="recursos/img/img_pweb3.jpg" alt="image" class="proyect_img">
+                <img src="recursos/img/API_ASPNET.png" alt="image" class="proyect_img">
             </a>
             <div class="data">
-                <h3 class="nombre">Web Design</h3>
-                <p class="descripcion">Creation of a website about purchasing products among other services that the page offers</p>
+                <h3 class="nombre">User Management API</h3>
+                <p class="descripcion">The API enables user management via CRUD operations and is built using ASP.NET Core and C#.</p>
 
                 <div class="sistemas">
-                    <i class="fa-brands fa-html5"></i>
-                    <i class="fa-brands fa-css3"></i>
-                    <i class="fa-brands fa-js"></i>
+                   <img src="recursos/icons/Csharp.jpg.png" alt="C#" class="skills_img">
+                   <img src="recursos/icons/Net.jpg.png" alt="ASP.NET Core" class="skills_img">
                 </div>
 
-                <a href="https://sebasaro.github.io/PaginaWeb2/" target="_blank" class="btn"><i class="fa-solid fa-link"></i>
+                <a href="https://github.com/SebasARo/API-Gestion-Usuario" target="_blank" class="btn"><i class="fa-solid fa-link"></i>
                 <span>View Proyect</span></a>
             </div>
         </article>
@@ -297,6 +297,41 @@
 
   </div>
         </section>
+
+       <section id="certi">
+  <h1 class="titulo_portafolio">Certifications</h1>
+  <div class="contenedor_cards">
+
+    <article class="pro_cards">
+      <a href="#" class="img_card" onclick="openModal('recursos/img/CertiASPNET.png')">
+        <img src="recursos/img/CertiASPNET.png" alt="Back-End .NET Certification" class="proyect_img">
+      </a>
+      <div class="data">
+        <h3 class="nombre">Back-End Development with .NET</h3>
+        <p class="descripcion">Certification obtained through Coursera & Microsoft. Focused on building APIs with ASP.NET Core, middleware, dependency injection, and Swagger documentation.</p>
+        <a href="recursos/img/Coursera_API.pdf" target="_blank" class="btn">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>View Certificate</span>
+        </a>
+      </div>
+    </article>
+
+    <article class="pro_cards">
+      <a href="#" class="img_card" onclick="openModal('recursos/img/CertiCSharp.png')">
+        <img src="recursos/img/CertiCSharp.png" alt="Basic Programming C#" class="proyect_img">
+      </a>
+      <div class="data">
+        <h3 class="nombre">Introduction to Programming With C#</h3>
+        <p class="descripcion">Course focused on C# fundamentals, object-oriented programming, and building basic applications of administrate a books in Console.</p>
+        <a href="recursos/img/Coursera H171O4A8V3SE.pdf" target="_blank" class="btn">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>View Certificate</span>
+        </a>
+      </div>
+    </article>
+<script src="js/certis.js"></script>
+  </div>
+         </section>
 
        <section id="Contactar">
         <div class="contenedor-cm">
